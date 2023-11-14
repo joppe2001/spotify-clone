@@ -17,7 +17,7 @@ export const Modal: React.FC<ModalProps> = ({
   children,
 }) => {
   return (
-    <dialog.Root open={isOpen} defaultOpen={isOpen} onOpenChange={onChange}>
+    <dialog.Root open={false} defaultOpen={isOpen} onOpenChange={onChange}>
       <dialog.Portal>
         <dialog.Overlay
           className="
